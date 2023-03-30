@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkizistudio_front=self.webpackChunkizistudio_front||[]).push([[678],{19678:function(i,t,u){u.r(t);var s=u(98487);t.default=s.g}}]);
-//# sourceMappingURL=678.c4054c39.chunk.js.map
