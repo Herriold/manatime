@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/manatime/static/css/main.a6a05cbf.css",
-    "main.js": "/manatime/static/js/main.9fedf8dd.js",
-    "static/js/537.cedc6c13.chunk.js": "/manatime/static/js/537.cedc6c13.chunk.js",
+    "main.js": "/manatime/static/js/main.df9093de.js",
+    "static/js/537.9f92d635.chunk.js": "/manatime/static/js/537.9f92d635.chunk.js",
     "static/js/241.af7f2817.chunk.js": "/manatime/static/js/241.af7f2817.chunk.js",
     "static/js/227.f734882c.chunk.js": "/manatime/static/js/227.f734882c.chunk.js",
-    "static/js/285.acf0a4b1.chunk.js": "/manatime/static/js/285.acf0a4b1.chunk.js",
+    "static/js/498.abaa9c59.chunk.js": "/manatime/static/js/498.abaa9c59.chunk.js",
     "static/js/952.3dbb4d19.chunk.js": "/manatime/static/js/952.3dbb4d19.chunk.js",
     "static/js/234.6f7bc7f4.chunk.js": "/manatime/static/js/234.6f7bc7f4.chunk.js",
     "static/js/678.439fa097.chunk.js": "/manatime/static/js/678.439fa097.chunk.js",
@@ -47,11 +47,11 @@
     "static/media/stripe2.svg": "/manatime/static/media/stripe2.c036418a77de55d790ca2a408a027754.svg",
     "static/media/Validation.svg": "/manatime/static/media/Validation.2461f0e3bbe1330f8d934b5236f842ea.svg",
     "main.a6a05cbf.css.map": "/manatime/static/css/main.a6a05cbf.css.map",
-    "main.9fedf8dd.js.map": "/manatime/static/js/main.9fedf8dd.js.map",
-    "537.cedc6c13.chunk.js.map": "/manatime/static/js/537.cedc6c13.chunk.js.map",
+    "main.df9093de.js.map": "/manatime/static/js/main.df9093de.js.map",
+    "537.9f92d635.chunk.js.map": "/manatime/static/js/537.9f92d635.chunk.js.map",
     "241.af7f2817.chunk.js.map": "/manatime/static/js/241.af7f2817.chunk.js.map",
     "227.f734882c.chunk.js.map": "/manatime/static/js/227.f734882c.chunk.js.map",
-    "285.acf0a4b1.chunk.js.map": "/manatime/static/js/285.acf0a4b1.chunk.js.map",
+    "498.abaa9c59.chunk.js.map": "/manatime/static/js/498.abaa9c59.chunk.js.map",
     "952.3dbb4d19.chunk.js.map": "/manatime/static/js/952.3dbb4d19.chunk.js.map",
     "234.6f7bc7f4.chunk.js.map": "/manatime/static/js/234.6f7bc7f4.chunk.js.map",
     "678.439fa097.chunk.js.map": "/manatime/static/js/678.439fa097.chunk.js.map",
@@ -64,6 +64,6 @@
   },
   "entrypoints": [
     "static/css/main.a6a05cbf.css",
-    "static/js/main.9fedf8dd.js"
+    "static/js/main.df9093de.js"
   ]
 }
