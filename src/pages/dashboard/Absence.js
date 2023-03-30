@@ -4,6 +4,7 @@ import Page from "src/components/Page";
 import SvgIconStyle from "src/components/SvgIconStyle";
 import AddSoldDialog from "./sidebar/AddSoldDialog";
 import SoldManager from "./sidebar/SoldManager";
+import AddIcon from "../../assets/Add.svg";
 
 export default function Absence() {
   const [open, setOpen] = useState(false);
@@ -24,7 +25,7 @@ export default function Absence() {
           onClick={() => setOpen(!open)}
           endIcon={
             <SvgIconStyle
-              src="./assets/Add.svg"
+              src={AddIcon}
               sx={{ height: 18, width: 18, color: "#FFFFFF" }}
             />
           }

@@ -5,6 +5,7 @@ import { MENUDATA } from "src/_mock/manatimeMock";
 import Image from "./Image";
 import { ListItemIconStyle } from "./nav-section/vertical/style";
 import SvgIconStyle from "./SvgIconStyle";
+import Stripe from "../assets/stripe2.svg";
 
 const StyledBreadCrumb = styled(Typography)({
   maxWidth: 165,
@@ -21,19 +22,14 @@ const BreadCrumbBase = ({ data, onNavigate, selected, ...others }) => {
   return (
     <Breadcrumbs
       aria-label="breadcrumb"
-      separator={
-        <SvgIconStyle
-          src="./assets/stripe2.svg"
-          sx={{ width: 16, height: 16 }}
-        />
-      }
+      separator={<SvgIconStyle src={Stripe} sx={{ width: 16, height: 16 }} />}
     >
       {breadCMenu?.map(({ id, title, to, img }) => (
         <Stack sx={{ flexDirection: "row", alignItems: "center" }} key={id}>
           <ListItemIconStyle
             sx={{ width: 55, height: 30, minWidth: "initial" }}
           >
-            <Image src={`./assets/${img}`} alt={to} />
+            <Image src={require(`../assets/${img}`)} alt={to} />
           </ListItemIconStyle>
           <StyledBreadCrumb onClick={() => onNavigate(to)} {...others}>
             {title}

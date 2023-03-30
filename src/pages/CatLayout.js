@@ -64,7 +64,7 @@ export default function CatLayout({ onNavigate }) {
                 <ListItemIconStyle
                   sx={{ width: 100, height: 60, minWidth: "initial" }}
                 >
-                  <Image src={`./assets/${item.img}`} alt={item.to} />
+                  <Image src={require(`../assets/${item.img}`)} alt={item.to} />
                 </ListItemIconStyle>
                 <Typography mt={2} fontSize={20}>
                   {item.title}

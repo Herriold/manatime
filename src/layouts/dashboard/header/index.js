@@ -11,6 +11,8 @@ import React from "react";
 import BreadCrumbBase from "src/components/BreadCrumbBase";
 import Image from "src/components/Image";
 import { HEADER, NAVBAR } from "src/utils/config";
+import SettingIcon from "../../../assets/Settings.svg";
+import HelpIcon from "../../../assets/Help.svg";
 
 const RootStyle = styled(AppBar)(({ theme }) => ({
   backgroundColor: "#FFFFFF",
@@ -55,15 +57,11 @@ const DashboardHeader = ({ ...others }) => {
             }}
           >
             <Image
-              src="./assets/Settings.svg"
+              src={SettingIcon}
               alt="Settings"
               sx={{ width: 40, height: 40 }}
             />
-            <Image
-              src="./assets/Help.svg"
-              alt="Help"
-              sx={{ width: 40, height: 40 }}
-            />
+            <Image src={HelpIcon} alt="Help" sx={{ width: 40, height: 40 }} />
           </Stack>
           <Divider
             orientation="vertical"
@@ -90,7 +88,7 @@ const DashboardHeader = ({ ...others }) => {
               </Typography>
             </Stack>
             <Image
-              src="./assets/Photo.png"
+              src={require(`../../../assets/Photo.png`)}
               alt="photo"
               sx={{ width: 40, height: 40 }}
             />
