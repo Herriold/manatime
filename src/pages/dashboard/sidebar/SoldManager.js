@@ -16,6 +16,9 @@ import { fShortenNumber } from "src/utils/formatNumber";
 import SoldListHead from "./SoldListHead";
 import { TABLE_HEAD, USERDATA } from "src/_mock/manatimeMock";
 import Image from "src/components/Image";
+import Ajuster from "../../../assets/Ajuster.svg";
+import Transferer from "../../../assets/Transferer.svg";
+import Solder from "../../../assets/Solder.svg";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -92,21 +95,21 @@ export default function SoldManager() {
                           <IconButton>
                             <Image
                               disabledEffect
-                              src={require(`../../../assets/Ajuster.svg`)}
+                              src={Ajuster}
                               sx={{ width: 28, height: 28 }}
                             />
                           </IconButton>
                           <IconButton>
                             <Image
                               disabledEffect
-                              src={require(`../../../assets/Transferer.svg`)}
+                              src={Transferer}
                               sx={{ width: 28, height: 28 }}
                             />
                           </IconButton>
                           <IconButton onClick={() => handleClick(id)}>
                             <Image
                               disabledEffect
-                              src={require(`../../../assets/Solder.svg`)}
+                              src={Solder}
                               sx={{ width: 28, height: 28 }}
                             />
                           </IconButton>

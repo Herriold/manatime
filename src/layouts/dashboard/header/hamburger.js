@@ -5,6 +5,7 @@ import { Stack } from "@mui/material";
 import { varFade } from "src/components/animate/variants/fade";
 import CatLayout from "src/pages/CatLayout";
 import Image from "src/components/Image";
+import Logo from "../../../assets/Logo.svg";
 
 const RootStyle = styled(m.div)(({ theme }) => ({
   top: 0,
@@ -50,7 +51,7 @@ export default function CategoryHamburger({ isOpen, handleHambOpen }) {
             sx={{ py: 2, pr: 1, pl: 2.5 }}
           >
             <Stack>
-              <Image src={require(`../../../assets/Logo.svg`)} alt="logo" />
+              <Image src={Logo} alt="logo" />
             </Stack>
             <CatLayout onNavigate={handleHambOpen} />
           </Stack>

@@ -60,7 +60,7 @@ const useNavConfig = () => {
           children: [
             {
               title: "Gestion des soldes",
-              path: "/absence/solde",
+              path: "absence/solde",
             },
             {
               title: "Ajuster un solde",
