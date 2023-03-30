@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/manatime/static/css/main.a6a05cbf.css",
+    "main.js": "/manatime/static/js/main.0de26065.js",
+    "static/js/537.b80b4065.chunk.js": "/manatime/static/js/537.b80b4065.chunk.js",
+    "static/js/304.cfedfdb0.chunk.js": "/manatime/static/js/304.cfedfdb0.chunk.js",
+    "static/js/227.e64d8336.chunk.js": "/manatime/static/js/227.e64d8336.chunk.js",
+    "static/js/285.44a8643d.chunk.js": "/manatime/static/js/285.44a8643d.chunk.js",
+    "static/js/952.85856681.chunk.js": "/manatime/static/js/952.85856681.chunk.js",
+    "static/js/234.09b4d025.chunk.js": "/manatime/static/js/234.09b4d025.chunk.js",
+    "static/js/678.c4054c39.chunk.js": "/manatime/static/js/678.c4054c39.chunk.js",
+    "static/js/787.d4a783b6.chunk.js": "/manatime/static/js/787.d4a783b6.chunk.js",
+    "static/js/324.a20490e9.chunk.js": "/manatime/static/js/324.a20490e9.chunk.js",
+    "static/js/568.ee36863f.chunk.js": "/manatime/static/js/568.ee36863f.chunk.js",
+    "static/js/830.05f8e09b.chunk.js": "/manatime/static/js/830.05f8e09b.chunk.js",
+    "static/js/693.120192a8.chunk.js": "/manatime/static/js/693.120192a8.chunk.js",
+    "static/js/487.cbeb1bd7.chunk.js": "/manatime/static/js/487.cbeb1bd7.chunk.js",
+    "index.html": "/manatime/index.html",
+    "main.a6a05cbf.css.map": "/manatime/static/css/main.a6a05cbf.css.map",
+    "main.0de26065.js.map": "/manatime/static/js/main.0de26065.js.map",
+    "537.b80b4065.chunk.js.map": "/manatime/static/js/537.b80b4065.chunk.js.map",
+    "304.cfedfdb0.chunk.js.map": "/manatime/static/js/304.cfedfdb0.chunk.js.map",
+    "227.e64d8336.chunk.js.map": "/manatime/static/js/227.e64d8336.chunk.js.map",
+    "285.44a8643d.chunk.js.map": "/manatime/static/js/285.44a8643d.chunk.js.map",
+    "952.85856681.chunk.js.map": "/manatime/static/js/952.85856681.chunk.js.map",
+    "234.09b4d025.chunk.js.map": "/manatime/static/js/234.09b4d025.chunk.js.map",
+    "678.c4054c39.chunk.js.map": "/manatime/static/js/678.c4054c39.chunk.js.map",
+    "787.d4a783b6.chunk.js.map": "/manatime/static/js/787.d4a783b6.chunk.js.map",
+    "324.a20490e9.chunk.js.map": "/manatime/static/js/324.a20490e9.chunk.js.map",
+    "568.ee36863f.chunk.js.map": "/manatime/static/js/568.ee36863f.chunk.js.map",
+    "830.05f8e09b.chunk.js.map": "/manatime/static/js/830.05f8e09b.chunk.js.map",
+    "693.120192a8.chunk.js.map": "/manatime/static/js/693.120192a8.chunk.js.map",
+    "487.cbeb1bd7.chunk.js.map": "/manatime/static/js/487.cbeb1bd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6a05cbf.css",
+    "static/js/main.0de26065.js"
+  ]
+}
