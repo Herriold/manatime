@@ -4,13 +4,13 @@ import SvgIconStyle from "src/components/SvgIconStyle";
 const ICON_STYLE = { height: 20, width: 20, color: "#FFFFFF" };
 
 const ICONS = {
-  home: <SvgIconStyle src="/assets/Accueil.svg" sx={ICON_STYLE} />,
-  add: <SvgIconStyle src="/assets/Add.svg" sx={ICON_STYLE} />,
-  card: <SvgIconStyle src="/assets/espace.svg" sx={ICON_STYLE} />,
-  checkmark: <SvgIconStyle src="/assets/Validation.svg" sx={ICON_STYLE} />,
-  listCheck: <SvgIconStyle src="/assets/Indicateurs.svg" sx={ICON_STYLE} />,
-  search: <SvgIconStyle src="/assets/Recherche.svg" sx={ICON_STYLE} />,
-  balance: <SvgIconStyle src="/assets/Soldes.svg" sx={ICON_STYLE} />,
+  home: <SvgIconStyle src="./assets/Accueil.svg" sx={ICON_STYLE} />,
+  add: <SvgIconStyle src="./assets/Add.svg" sx={ICON_STYLE} />,
+  card: <SvgIconStyle src="./assets/espace.svg" sx={ICON_STYLE} />,
+  checkmark: <SvgIconStyle src="./assets/Validation.svg" sx={ICON_STYLE} />,
+  listCheck: <SvgIconStyle src="./assets/Indicateurs.svg" sx={ICON_STYLE} />,
+  search: <SvgIconStyle src="./assets/Recherche.svg" sx={ICON_STYLE} />,
+  balance: <SvgIconStyle src="./assets/Soldes.svg" sx={ICON_STYLE} />,
 };
 
 const useNavConfig = () => {

@@ -50,7 +50,7 @@ export default function CategoryHamburger({ isOpen, handleHambOpen }) {
             sx={{ py: 2, pr: 1, pl: 2.5 }}
           >
             <Stack>
-              <Image src="/assets/Logo.svg" alt="logo" />
+              <Image src="./assets/Logo.svg" alt="logo" />
             </Stack>
             <CatLayout onNavigate={handleHambOpen} />
           </Stack>

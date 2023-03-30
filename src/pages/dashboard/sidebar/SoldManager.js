@@ -92,21 +92,21 @@ export default function SoldManager() {
                           <IconButton>
                             <Image
                               disabledEffect
-                              src="/assets/Ajuster.svg"
+                              src="./assets/Ajuster.svg"
                               sx={{ width: 28, height: 28 }}
                             />
                           </IconButton>
                           <IconButton>
                             <Image
                               disabledEffect
-                              src="/assets/Transferer.svg"
+                              src="./assets/Transferer.svg"
                               sx={{ width: 28, height: 28 }}
                             />
                           </IconButton>
                           <IconButton onClick={() => handleClick(id)}>
                             <Image
                               disabledEffect
-                              src="/assets/Solder.svg"
+                              src="./assets/Solder.svg"
                               sx={{ width: 28, height: 28 }}
                             />
                           </IconButton>

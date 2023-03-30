@@ -24,7 +24,7 @@ export default function Absence() {
           onClick={() => setOpen(!open)}
           endIcon={
             <SvgIconStyle
-              src="/assets/Add.svg"
+              src="./assets/Add.svg"
               sx={{ height: 18, width: 18, color: "#FFFFFF" }}
             />
           }

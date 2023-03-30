@@ -23,7 +23,7 @@ const BreadCrumbBase = ({ data, onNavigate, selected, ...others }) => {
       aria-label="breadcrumb"
       separator={
         <SvgIconStyle
-          src="/assets/stripe2.svg"
+          src="./assets/stripe2.svg"
           sx={{ width: 16, height: 16 }}
         />
       }
@@ -33,7 +33,7 @@ const BreadCrumbBase = ({ data, onNavigate, selected, ...others }) => {
           <ListItemIconStyle
             sx={{ width: 55, height: 30, minWidth: "initial" }}
           >
-            <Image src={`/assets/${img}`} alt={to} />
+            <Image src={`./assets/${img}`} alt={to} />
           </ListItemIconStyle>
           <StyledBreadCrumb onClick={() => onNavigate(to)} {...others}>
             {title}
