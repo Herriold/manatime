@@ -41,7 +41,7 @@ export default function Router() {
       path: "/",
       element: <DashboardLayout />,
     },
-    { path: "*", element: <Navigate to="/404" replace /> },
+    { path: "*", element: <Navigate to="/absence" replace /> },
   ]);
 }
 
